@@ -1,0 +1,138 @@
+/*** ESTILO - GERAL ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* DESATIVADO - PORQUE NO MEU NAVEGADOR TINHA PARADO DE FUNCIONAR, USEI JAVASCRIPT COMO SUBSTITUTO
+html {
+    scroll-behavior: smooth;
+}
+*/
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+    background: url(images/space.gif);
+    animation: animateBg 60s linear infinite;
+}
+
+/* ESTILO SUBTÍTULOS */
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Sofia', sans-serif;
+}
+
+section .title::after {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+/****************/
+
+/*ESTILO BOTÕES*/
+a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #ffffff;
+    background: none;
+    border: 2px inset #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Sofia', sans-serif;
+}
+
+/* NEON NOS BOTÕES*/
+
+a:hover {
+    color: #ffffff;
+    background: none;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff;
+    transition-delay: 0.25s;
+}
+
+/***0.25s VELOCIDADE DA ANIMAÇÃO/NEON DO BOTÃO***/
+/***0.25s EFEITO DA ANIMAÇÃO/NEON DO BOTÃO***/
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ffffff);
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ffffff);
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0, 5s;
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ffffff);
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0, 25s;
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ffffff);
+}
+
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0, 75s;
+}

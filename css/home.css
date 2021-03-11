@@ -1,0 +1,141 @@
+/* ESTILO - HOME */
+
+.home {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    margin-top: 5%;
+    font-size: 27px;
+    font-family: 'Sofia', sans-serif;
+}
+
+.home .home-content .text-2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    font-family: 'Courier Prime', monospace;
+}
+
+.home .home-content .text-3 {
+    font-size: 30px;
+    margin: 5px 0;
+    font-family: 'Sofia', sans-serif;
+}
+
+.home .home-content .text-3 span {
+    color: #c1fc00;
+    font-weight: 500;
+}
+
+/*BOTÃO GITHUB , LINKEDIN E BEHANCE*/
+
+.home .home-content a {
+    display: inline-block;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 210px;
+    margin-right: -5px;
+    border-radius: 50px;
+    border: 2px inset #ffffff;
+    transition: all 0.3s ease;
+}
+/****************************/
+/******* MEDIA QUERY *******/
+
+@media (max-width: 1300px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 947px) {
+    .home .home-content .text-2 {
+        font-size: 70px;
+        color: transparent;
+        -webkit-text-stroke: 2px #fff;
+    }
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 15px;
+    }
+    .max-width {
+        max-width: 800px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 721px) {
+    .home .home-content .text-1 {
+        margin-top: -20%;
+    }
+
+    .home .home-content .text-3 {
+        margin-bottom: 50%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+    .home .home-content .text-3 {
+        font-size: 32px;
+    }
+    .home .home-content a {
+        font-size: 20px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+        font-size: 50px;
+    }
+    .home .home-content .text-3 {
+        font-size: 27px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 575.98px) {
+    .home .home-content .text-1 {
+        margin-top: 20%;
+    }
+    .home .home-content .text-3 {
+        margin-bottom: -18%;
+    }
+}

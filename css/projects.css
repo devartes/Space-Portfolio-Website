@@ -1,0 +1,79 @@
+/* ESTILO - PROJETOS */
+
+.projects .title::after {
+    background: none;
+    content: "O que eu fiz?";
+}
+
+.projects {
+    font-family: 'Sofia', sans-serif;
+    color: #ffffff;
+}
+
+.projects .proj-content .card {
+    width: calc(38% - 70px);
+    margin: 5px;
+    background: #222;
+    text-align: center;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    border: inset;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 8px -15px 10px -15px;
+    border-radius: 30px;
+}
+
+.projects .proj-content .card:hover {
+    background: rgb(17, 17, 17);
+    border-radius: 30px;
+}
+
+.projects .proj-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.projects .proj-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.projects .proj-content .card .card-overlay {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/******* MEDIA QUERY *******/
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 947px) {
+    .projects .proj-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    @media (max-width: 690px) {
+        .max-width {
+            padding: 0 23px;
+        }
+        .projects .proj-content .card {
+            width: 100%;
+        }
+    }
+}
+

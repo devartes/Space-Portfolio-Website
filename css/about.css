@@ -1,0 +1,126 @@
+/*** ESTILO - SOBRE MIM ***/
+
+.about {
+    font-family: 'Sofia', sans-serif;
+    color: #ffffff;
+}
+
+.about .title::after {
+    content: "Quem eu sou?";
+}
+
+/* SOBRE MIM + PROJETOS*/
+
+section .about-content, .projects .proj-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*********************/
+
+/* LEFT = IMAGEM GIF / RIGHT = TEXTO */
+
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 50px;
+}
+
+.about .about-content .right {
+    width: 55%;
+}
+
+/* ESTILO - TEXTO : MEU NOME COMPLETO É*/
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+/**************************************/
+
+/*ANIMAÇÃO DO QUE SOU APÓS MEU NOME*/
+
+.about .about-content .right .text span {
+    color: #c1fc00;
+}
+
+/*********************************/
+
+/*ESTILO - TEXTO SOBRE MIM*/
+
+.about .about-content .right p {
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.about .about-content .column {
+    width: 50%;
+}
+
+/*******************************/
+
+/*ESTILO - BOTÃO : DOWNLOAD CV*/
+
+.about .about-content .right a {
+    color: #fff;
+    background: none;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: normal;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/****************************/
+
+/******* MEDIA QUERY *******/
+
+@media (max-width: 1104px) {
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 947px) {
+    .max-width {
+        max-width: 800px;
+    }
+    .about .about-content .column {
+        width: 100%;
+    }
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+        flex: 100%;
+    }
+    @media (max-width: 690px) {
+        .max-width {
+            padding: 0 23px;
+        }
+    }
+}

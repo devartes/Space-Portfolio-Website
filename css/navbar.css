@@ -1,0 +1,108 @@
+/*** ESTILO - NAVBAR E MENU ***/
+/*ESTILO - NAVBAR*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+.navbar.sticky {
+    padding: 0 15px;
+    background: #111;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu a{
+    font-family: 'Sofia', sans-serif;
+    letter-spacing: normal;
+}
+/********************/
+/*PALAVRA PORTFÓLIO*/
+
+.navbar .logo a2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/******************/
+/******************/
+/*** ESTILO - MENU HAMBÚRGUER - "MENU > QUANDO A TELA É REDUZIDA" ***/
+
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+/*******************************************************************/
+/******* MEDIA QUERY *******/
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navbar .menu {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #000;
+        text-align: center;
+        padding-top: 120px;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a1 {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .max-width {
+        max-width: 800px;
+    }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    @media (max-width: 690px) {
+        .max-width {
+            padding: 0 23px;
+        }
+    }
+}
+

@@ -1,0 +1,130 @@
+/* ESTILO - PAGINATION */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination li {
+    display: flex;
+    float: left;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 107%;
+    margin-right: -107%;
+}
+
+.pagination a {
+    border-radius: 10px 80px 80px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgb(255, 255, 255, .5);
+    color: #000;
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 2561px) {
+    .pagination {
+        margin-left: 25.1%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 1569.98px) {
+    .pagination {
+        margin-left: 9%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 1399.98px) {
+    .pagination {
+        margin-left: 1px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 1399.98px) {
+    .pagination {
+        margin-left: 4%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 1025px) {
+    .pagination {
+        margin-left: -12%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 924px) {
+    .pagination {
+        margin-left: -18%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 767.98px) {
+    .pagination {
+        margin-left: -38%;
+        margin-right: 38%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 575.98px) {
+    .pagination {
+        margin-left: -65%;
+        margin-right: 15%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 507px) {
+    .pagination {
+        margin-left: -75%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 465px) {
+    .pagination {
+        margin-left: -86%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 430px) {
+    .pagination {
+        margin-left: -98%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 395px) {
+    .pagination {
+        margin-left: -108%;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 361px) {
+    .pagination {
+        margin-left: -88%;
+        margin-right: 95%;
+    }
+}
