@@ -136,3 +136,10 @@ a:hover span:nth-child(4) {
     transition: 1s;
     transition-delay: 0, 75s;
 }
+
+/******* MEDIA QUERY *******/
+@media (min-width:320px) and (max-width: 376px) {
+    section {
+        overflow-x: hidden;
+    }        
+}

@@ -85,3 +85,11 @@
         background-position: 1600px 0;
     }
 }
+
+
+/******* MEDIA QUERY *******/
+@media (min-width:320px) and (max-width: 376px) {
+    .pulse span {
+        display: none;
+    }  
+}
