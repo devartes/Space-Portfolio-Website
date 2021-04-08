@@ -86,10 +86,10 @@
     }
 }
 
-
 /******* MEDIA QUERY *******/
+
 @media (min-width:319px) and (max-width: 376px) {
     .pulse span {
         display: none;
-    }  
+    }
 }
