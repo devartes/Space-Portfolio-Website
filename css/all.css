@@ -141,6 +141,6 @@ a:hover span:nth-child(4) {
 @media (min-width:319px) and (max-width: 376px) {
     section {
         display: block;
-        overflow-x: hidden;
+        overflow-y: hidden;
     }        
 }
