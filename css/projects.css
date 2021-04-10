@@ -8,6 +8,9 @@
 .projects {
     font-family: 'Sofia', sans-serif;
     color: #ffffff;
+    position: relative; 
+    z-index: 10;
+    margin-top: 5%;
 }
 
 .projects .proj-content .card {

@@ -8,22 +8,19 @@
     text-decoration: none;
 }
 
-/* DESATIVADO - PORQUE NO MEU NAVEGADOR TINHA PARADO DE FUNCIONAR, USEI JAVASCRIPT COMO SUBSTITUTO
-html {
-    scroll-behavior: smooth;
-}
-*/
-
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
-section {
-    padding: 100px 0;
-    background: url(images/space.gif);
-    animation: animateBg 60s linear infinite;
+section video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* ESTILO SUBTÍTULOS */
@@ -63,6 +60,7 @@ a {
     overflow: hidden;
     transition: 0.2s;
     font-family: 'Sofia', sans-serif;
+    z-index: 10;
 }
 
 /* NEON NOS BOTÕES*/

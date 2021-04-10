@@ -2,6 +2,9 @@
 
 .skills {
     color: #fff;
+    position: relative; 
+    z-index: 10;
+    margin-top: 5%;
 }
 
 .skills .title::after {
@@ -13,7 +16,6 @@
     background: none;
     font-size: 35px;
     font-weight: 600;
-    margin-top: 80px;
     margin-left: 21%;
     color: transparent;
     -webkit-text-stroke: 2px #ffffff;

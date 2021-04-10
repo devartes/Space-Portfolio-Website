@@ -3,6 +3,8 @@
 .about {
     font-family: 'Sofia', sans-serif;
     color: #ffffff;
+    position: relative; 
+    z-index: 10;
 }
 
 .about .title::after {
