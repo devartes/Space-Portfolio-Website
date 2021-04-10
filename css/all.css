@@ -8,16 +8,19 @@
     text-decoration: none;
 }
 
-/* DESATIVADO - PORQUE NO MEU NAVEGADOR TINHA PARADO DE FUNCIONAR, USEI JAVASCRIPT COMO SUBSTITUTO
-html {
-    scroll-behavior: smooth;
-}
-*/
-
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+}
+
+section video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 section {
