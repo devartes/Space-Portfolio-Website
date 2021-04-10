@@ -6,6 +6,8 @@
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+    position: relative; 
+    z-index: 10;
 }
 
 .home .max-width {
@@ -13,6 +15,7 @@
 }
 
 .home .home-content .text-1 {
+    margin-top: 35%;
     margin-top: 5%;
     font-size: 27px;
     font-family: 'Sofia', sans-serif;
