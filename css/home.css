@@ -110,6 +110,9 @@
     .max-width {
         padding: 0 23px;
     }
+    .home .home-content .text-1 {
+        margin-top: 35%;
+    }
     .home .home-content .text-2 {
         font-size: 60px;
     }
