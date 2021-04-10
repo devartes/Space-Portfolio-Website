@@ -16,7 +16,7 @@
 
 .home .home-content .text-1 {
     margin-top: 35%;
-    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 27px;
     font-family: 'Courier Prime', monospace;
 }
@@ -31,7 +31,7 @@
 }
 
 .home .home-content .text-3 {
-    font-size: 30px;
+    font-size: 27px;
     margin: 5px 0;
     font-family: 'Sofia', sans-serif;
 }
