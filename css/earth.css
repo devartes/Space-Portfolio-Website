@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
-    background: url(images/earth.png);
+    background: url(images/earth.webp);
     background-size: cover;
     animation: animateEarth 12s linear infinite;
     border-radius: 50%;
