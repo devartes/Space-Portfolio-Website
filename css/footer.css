@@ -20,6 +20,8 @@ footer {
     font-family: 'Ubuntu', sans-serif;
     padding-top: 40px;
     color: #fff;
+    position: relative; 
+    z-index: 10;
 }
 
 .footer-content {
