@@ -23,12 +23,6 @@ section video{
     left: 0;
 }
 
-section {
-    padding: 100px 0;
-    background: url(images/space.gif);
-    animation: animateBg 60s linear infinite;
-}
-
 /* ESTILO SUBTÍTULOS */
 section .title {
     position: relative;
