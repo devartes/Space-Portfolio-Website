@@ -55,11 +55,8 @@ footer {
     margin: 1rem 0 3rem 0;
 }
 
-.socials li {
+.socials li a {
     margin: 0 10px;
-}
-
-.socials a {
     text-decoration: none;
     color: #fff;
     border-radius: 90px 80px 70px 10px;

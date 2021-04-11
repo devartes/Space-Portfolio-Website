@@ -13,7 +13,7 @@
     margin: auto;
 }
 
-section video{
+video {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -23,6 +23,7 @@ section video{
 }
 
 /* ESTILO SUBTÍTULOS */
+
 section .title {
     position: relative;
     text-align: center;
@@ -42,9 +43,11 @@ section .title::after {
     padding: 5px;
     transform: translateX(-50%);
 }
+
 /****************/
 
 /*ESTILO BOTÕES*/
+
 a {
     position: relative;
     display: inline-block;
@@ -72,6 +75,7 @@ a:hover {
 }
 
 /***0.25s VELOCIDADE DA ANIMAÇÃO/NEON DO BOTÃO***/
+
 /***0.25s EFEITO DA ANIMAÇÃO/NEON DO BOTÃO***/
 
 a span {
@@ -135,9 +139,10 @@ a:hover span:nth-child(4) {
 }
 
 /******* MEDIA QUERY *******/
+
 @media (min-width:319px) and (max-width: 376px) {
     section {
         display: block;
         overflow-y: hidden;
-    }        
+    }
 }
