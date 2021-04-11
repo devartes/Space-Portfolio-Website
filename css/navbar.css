@@ -1,5 +1,7 @@
 /*** ESTILO - NAVBAR E MENU ***/
+
 /*ESTILO - NAVBAR*/
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -8,7 +10,6 @@
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-
 
 .navbar.sticky {
     padding: 0 15px;
@@ -26,21 +27,25 @@
     display: inline-block;
 }
 
-.navbar .menu a{
+.navbar .menu a {
     font-family: 'Sofia', sans-serif;
     letter-spacing: normal;
 }
+
 /********************/
+
 /*PALAVRA PORTFÓLIO*/
 
-.navbar .logo a2 {
+.navbar .logo h1 {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 
 /******************/
+
 /******************/
+
 /*** ESTILO - MENU HAMBÚRGUER - "MENU > QUANDO A TELA É REDUZIDA" ***/
 
 .menu-btn {
@@ -51,6 +56,7 @@
 }
 
 /*******************************************************************/
+
 /******* MEDIA QUERY *******/
 
 @media (max-width: 991px) {
@@ -69,7 +75,6 @@
     .menu-btn i.active:before {
         content: "\f00d";
     }
-
     .navbar .menu {
         position: absolute;
         height: 100vh;
@@ -81,28 +86,24 @@
         padding-top: 120px;
         transition: all 0.3s ease;
     }
-    
     .navbar .menu.active {
         left: 0;
     }
     .navbar .menu li {
         display: block;
     }
-    .navbar .menu li a1 {
+    .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
-        font-size: 25px;
+        font-size: 15px;
     }
     .max-width {
         max-width: 800px;
     }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     @media (max-width: 690px) {
         .max-width {
             padding: 0 23px;
         }
     }
 }
-
