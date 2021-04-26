@@ -8,6 +8,6 @@
     <img src="https://shields.io/badge/Preview-black?logo=github&style=for-the-badge">
   </a>
   <br>
-  <img src="https://github.com/devartes/Space-Portfolio-Website/blob/main/site.png" width="400">
+  <img src="https://github.com/devartes/Space-Portfolio-Website/blob/main/portfolio.gif" width="400">
 </p> 
 
