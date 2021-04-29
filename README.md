@@ -23,7 +23,7 @@
         <br>me sinta bem.
         <br>Então já que eu gosto tanto , por que não criar <br>um
         portfólio com tema de universo?
-  <br><strong>O que eu usei para conseguir criar este portfólio?</strong>:point_down:
+  <br><br><strong>O que eu usei para conseguir criar este portfólio?</strong>:point_down:
  </p> 
 
   <p align="left">
