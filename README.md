@@ -20,6 +20,13 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
   </p>
   
-  <p align="left">
-  <img src="https://github.com/devartes/Space-Portfolio-Website/blob/main/portfolio.gif" width="400"><br>
-  </p>
+  <p><img align="right" alt="GIF" src="https://github.com/devartes/Space-Portfolio-Website/blob/main/portfolio.gif?raw=true" width="400" style="max-        width:100%"></a></p>
+  <h2><a id="eu-gosto-do-universo" class="anchor" aria-hidden="true" href="#eu-gosto-do-universo"></a>Eu gosto do universo!:milky_way:</h2>
+
+<p align="left">
+        Desde criança eu admiro a beleza do universo.
+        <br>Olhar para o céu estrelado , faz com que eu
+        <br>me sinta bem.
+        <br>Então já que eu gosto tanto , por que não criar um
+        <br>portfólio com tema de universo?
+ </p> 
