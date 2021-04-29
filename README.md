@@ -11,7 +11,7 @@
     <img src="https://shields.io/badge/Preview-black?logo=github&style=for-the-badge">
   </a>
   <br>
-  <img src="https://github.com/devartes/Space-Portfolio-Website/blob/main/pc.svg" width="300"><br>
+  <img src="https://github.com/devartes/Space-Portfolio-Website/blob/main/pc.svg" width="350"><br>
 </p> 
 
   <p align="center">
