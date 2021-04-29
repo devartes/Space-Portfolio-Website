@@ -21,9 +21,9 @@
         Desde criança eu admiro a beleza do universo.
         <br>Olhar para o céu estrelado , faz com que eu
         <br>me sinta bem.
-        <br>Então já que eu gosto tanto , por que não criar um
+        <br>Então já que eu gosto tanto , por que não criar <br>um
         portfólio com tema de universo?
-        <br>O que eu usei para conseguir criar este portfólio?:point_down:
+  <br><strong>O que eu usei para conseguir criar este portfólio?</strong>:point_down:
  </p> 
 
   <p align="left">
