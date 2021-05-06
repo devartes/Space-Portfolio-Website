@@ -18,19 +18,19 @@ $(document).ready(function () {
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   //  ANIMAÇÃO DE DIGITAÇÃO
-  var typed = new Typed(".typing", {
-    strings: ["Designer", "Desenhista", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true
-  })
+  // var typed = new Typed(".typing", {
+  //   strings: ["Designer", "Desenhista", "Freelancer"],
+  //   typeSpeed: 100,
+  //   backSpeed: 100,
+  //   loop: true
+  // })
   
-  var typed = new Typed(".typing-2", {
-    strings: ["Designer", "Desenhista", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true
-  })
+  // var typed = new Typed(".typing-2", {
+  //   strings: ["Designer", "Desenhista", "Freelancer"],
+  //   typeSpeed: 100,
+  //   backSpeed: 100,
+  //   loop: true
+  // })
   // ~~~~~~~~~~~~~~~~~~~~~~~
   
   // SOLUÇÃO PARA O PROBLEMA DO SCROLL
