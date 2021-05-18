@@ -18,14 +18,14 @@ $(document).ready(function () {
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   //  ANIMAÇÃO DE DIGITAÇÃO
-  var typed = new Typed(".typing", {
+  var typed = new Typed(".typeOfAnimation", {
     strings: ["Designer", "Desenhista", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
   })
   
-  var typed = new Typed(".typing-2", {
+  var typed = new Typed(".typeOfAnimation2", {
     strings: ["Designer", "Desenhista", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 100,
